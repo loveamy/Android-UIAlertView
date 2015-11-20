@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity" >
+
+        <Button
+            android:id="@+id/single_uialertview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/single_uialertview" />
+
+        <Button
+            android:id="@+id/double_uialertview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/single_uialertview"
+            android:layout_marginTop="20dp"
+            android:text="@string/double_uialertview" />
+
+        <Button
+            android:id="@+id/three_uialertview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/double_uialertview"
+            android:layout_marginTop="20dp"
+            android:text="@string/three_uialertview" />
+
+        <Button
+            android:id="@+id/single_alertdialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/three_uialertview"
+            android:layout_marginTop="20dp"
+            android:text="@string/single_alertdialog" />
+
+        <Button
+            android:id="@+id/double_alertdialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/single_alertdialog"
+            android:layout_marginTop="20dp"
+            android:text="@string/double_alertdialog" />
+
+        <Button
+            android:id="@+id/three_alertdialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/double_alertdialog"
+            android:layout_marginTop="20dp"
+            android:text="@string/three_alertdialog" />
+    </RelativeLayout>
+
+</ScrollView>

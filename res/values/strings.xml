@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android-UIAlertView</string>
+    <string name="action_settings">Settings</string>
+    <string name="single_uialertview">IOS UIAlertView(单个按钮)</string>
+    <string name="single_alertdialog">Android AlertDialog(单个按钮)</string>
+    <string name="double_uialertview">IOS UIAlertView(两个按钮)</string>
+    <string name="double_alertdialog">Android AlertDialog(两个按钮)</string>
+    <string name="three_uialertview">IOS UIAlertView(三个按钮)</string>
+    <string name="three_alertdialog">Android AlertDialog(三个按钮)</string>
+    <string name="prompt">提示</string>
+    <string name="exit_app">你确定要退出应用吗?</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="dismiss">隐藏</string>
+
+</resources>
